@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ebook Ad (Project 1)</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- JavaScript Code for the go-to-top-btn -->
+    <script>
+    window.onScroll = () => {scrollFunction()};
+    var topBtn = document.querySelector(".btn-container");
+    function scrollFunction() {
+        if (document.documentElement.scrollTop > 900) {
+            topBtn.style.opacity = "1" ;
+        }
+    } 
+
+    if (topBtn.addEventListener("click", () => {
+          document.documentElement.scrollTop = 0;
+    }))
+    </script> 
+    <link href ="Google's responsive design fundamentals.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 600, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+</head>
+<body>
+  <div class = "header">
+        <div class="text-1-container">
+            <div class = "blurb">
+                <p class="header-text">
+                    Did you just get an IT job?<br>
+                    If you want to get the digital skills you need for your career in Technology and Computing, boy do we have product for you! 
+                </p>  
+                <button class="moreBtn">
+                    <a href ="#body" class = "learn-more">Learn More</a>
+                </button>
+            </div>
+            
+             
+       </div>
+    
+        <div class="btn-container">
+            <i class="fas fa-angle-up go-to-top-btn"></i>
+        </div>
+  </div>
+ 
+  <section id = "body" >
+      <div class="about">Our comprehensive 270-page ebook covers all you need to know about your new field in Technology and Computing. Even if you're still making arrangements to enter into this field, this ebook can go a long way in helping you get along with the fast-changing technologies in our world today. 
+      </div>
+      <div class="part-1 container">
+        <p class="text-1 central-text-style">
+            What You'll Learn In This Ebook
+        </p>
+        <hr class="header-rule">
+        <p class="overview-1">From Online Marketing to Search Engine Optimization, you'll be taught step by step  how to move the online market with your products. You'll also be given:
+        </p>
+        <ul class="list-1">
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore fugit nobis dolores dolorem voluptatem animi ullam ducimus similique minima.</li><hr>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore fugit nobis dolores dolorem voluptatem animi ullam ducimus similique minima.</li><hr>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore fugit nobis dolores dolorem voluptatem animi ullam ducimus similique minima.</li><hr>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore fugit nobis dolores dolorem voluptatem animi ullam ducimus similique minima.</li><hr>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore fugit nobis dolores dolorem voluptatem animi ullam ducimus similique minima.</li><hr>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore fugit nobis dolores dolorem voluptatem animi ullam ducimus similique minima.</li>
+           
+        </ul>
+
+      </div>
+
+      <div class="part-2 container">
+        <p class="text-2 central-text-style">
+            Written by professionals and industry experts
+        </p>    
+        <hr class="header-rule">        
+        <div class="list-2 grid-box">
+            <div class = "box-style" >
+                <div class="img-class"><img src = "Girl photo.jpg" class="dpImg"></div>
+                <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque vero in nihil recusandae aliquid dolores blanditiis, mollitia culpa nam! Aut maiores, dolorem vitae magni iste numquam dolores voluptate eos.</p>
+            </div>
+            <div class = "box-style" >
+                <div class="img-class"><img src = "Girl photo.jpg" class="dpImg"></div>
+                <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque vero in nihil recusandae aliquid dolores blanditiis, mollitia culpa nam! Aut maiores, dolorem vitae magni iste numquam dolores voluptate eos.</p>                
+            </div>
+            <div class = "box-style" >
+                <div class="img-class"><img src = "Girl photo.jpg" class="dpImg"></div>
+                <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque vero in nihil recusandae aliquid dolores blanditiis, mollitia culpa nam! Aut maiores, dolorem vitae magni iste numquam dolores voluptate eos.</p>                
+            </div>
+            <div class = "box-style" >
+                <div class="img-class"><img src = "Girl photo.jpg" class="dpImg"></div>
+                <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque vero in nihil recusandae aliquid dolores blanditiis, mollitia culpa nam! Aut maiores, dolorem vitae magni iste numquam dolores voluptate eos.</p>                                
+            </div>
+            
+        </div>  
+      </div>
+
+      <div class="part-3 container">
+          <p class="text-3 central-text-style">
+            Watch this video to learn more about this amazing offer.
+          </p>
+        <hr class="header-rule"> 
+        <div class="vid">
+          <video class = "video-style" src = "Coming_Soon_Page___HTML,_CSS___JavaScript.mp4" controls loop>               
+        </div>       
+            
+      </div>
+
+    <div class="part-4 container">
+          <p class="text-4 central-text-style">
+            Still have doubts? Check out testimonies from people just like you who purchased this great resource
+          </p>
+        <hr class="header-rule">  
+        <div id="demo" class="carousel slide" data-ride="carousel">
+                
+                  <!-- Indicators -->
+                  <!-- <ul class="carousel-indicators">
+                    <li data-Ctarget="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                  </ul> -->
+                  
+                  <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="carousel-content">
+                                <div class="img-class"><img src = "Girl photo.jpg" class="dpImg"></div>
+                                <div class="carousel-caption">
+                                        <h2 class="name">Nick Parlante</h2>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, commodi nostrum sunt odio voluptates corrupti praesentium iure nobis inventore rem, dolore reprehenderit id obcaecati ut fugiat ipsum facilis dolor dolorum deserunt atque consequatur molestias doloremque adipisci a. Illum, eligendi consectetur?
+                                </div>
+                        </div>                  
+                
+                    </div>
+                    <div class="carousel-item center">
+                        <div class="carousel-content">
+                            <div class="img-class"><img src = "Girl photo.jpg" class="dpImg"></div>
+                            <div class="carousel-caption description">
+                                    <h2 class="name">Emmy Tobs</h2>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, commodi nostrum sunt odio voluptates corrupti praesentium iure nobis inventore rem, dolore reprehenderit id obcaecati ut fugiat ipsum facilis dolor dolorum deserunt atque consequatur molestias doloremque adipisci a. Illum, eligendi consectetur?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item center">
+                        <div class="carousel-content">
+                            <div class="img-class"><img src = "Girl photo.jpg" class="dpImg"></div>
+                            <div class="carousel-caption description">
+                                    <h2 class="name">Sasha Seva</h2>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, commodi nostrum sunt odio voluptates corrupti praesentium iure nobis inventore rem, dolore reprehenderit id obcaecati ut fugiat ipsum facilis dolor dolorum deserunt atque consequatur molestias doloremque adipisci a. Illum, eligendi consectetur?
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev contol-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                </div>
+        <!-- Experiment on Bootstrap card slider -->
+    <!--<div class ="list-3 grid-box" >
+            <div class ="box-style" >
+                <div class="img-class"><img src = "#" class="dpImg"></div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, commodi nostrum sunt odio voluptates corrupti praesentium iure nobis inventore rem, dolore reprehenderit id obcaecati ut fugiat ipsum facilis dolor dolorum deserunt atque consequatur molestias doloremque adipisci a. Illum, eligendi consectetur?
+                </div>
+            </div>
+            <div class ="box-style" >
+                <div class="img-class"><img src = "#" class="dpImg"></div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, commodi nostrum sunt odio voluptates corrupti praesentium iure nobis inventore rem, dolore reprehenderit id obcaecati ut fugiat ipsum facilis dolor dolorum deserunt atque consequatur molestias doloremque adipisci a. Illum, eligendi consectetur?
+                </div>
+            </div>
+            <div class ="box-style" >
+                <div class="img-class"><img src = "#" class="dpImg"></div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, commodi nostrum sunt odio voluptates corrupti praesentium iure nobis inventore rem, dolore reprehenderit id obcaecati ut fugiat ipsum facilis dolor dolorum deserunt atque consequatur molestias doloremque adipisci a. Illum, eligendi consectetur?
+                </div>
+            </div>
+            <div class ="box-style" >
+                <div class="img-class"><img src = "#" class="dpImg"></div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, commodi nostrum sunt odio voluptates corrupti praesentium iure nobis inventore rem, dolore reprehenderit id obcaecati ut fugiat ipsum facilis dolor dolorum deserunt atque consequatur molestias doloremque adipisci a. Illum, eligendi consectetur?
+                </div>
+            </div>
+        </div>
+        -->        
+    </div>
+    
+    <div class="register">
+        <div class = "forms">
+            <p class = "label" >Enter Your First name</p>
+            <input type ="text" class = "formField" placeholder = "Enter Your Firstname" required data-error ="Please enter your fullname" >
+            <p class = "label" >Enter Your Surname</p>
+            <input type ="text" class = "formField" placeholder = "Enter Your Surname" required data-error ="Please enter your surname" >
+            <p class = "label" >Enter Your Age</p>
+            <input type ="text" class = "formField" placeholder = "Enter Your Age" >
+            <p class = "label" >Enter Your Email Address</p>
+            <input type ="text" class = "formField" placeholder = "Enter Your Email Address" required data-error ="Please enter your email address" >
+            <input type = "submit" class = "submitBtn" value = "Submit">
+
+            
+        </div>
+    </div>
+  </section>
+  
+  <section id="section2">
+    <div>
+        <img src = "Girl photo.jpg">
+        <img src = "Girl photo.jpg">
+        <img src = "Girl photo.jpg">
+        
+         
+      </div>
+  </section>
+
+  <style>
+
+#section2 div {
+
+    text-align: center;
+    display: block;
+}
+#section2 img {
+  width: 24%;
+  margin: 3%;
+  box-sizing: border-box;
+  border-radius: 0%;
+  box-shadow: black 0px 0px 5px;
+}
+  </style>
+  <footer>
+      <p>WE ALWAYS NEED A FOOTER</p>
+  </footer>
+    
+</body>
+</html> 
